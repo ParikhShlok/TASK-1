@@ -1,0 +1,32 @@
+﻿.menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.menu-item:hover {
+  color: #3498db;
+}
+
+.menu-item:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #3498db;
+}
+
+.menu-item.dropdown {
+  cursor: pointer;
+}

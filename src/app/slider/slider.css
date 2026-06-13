@@ -1,0 +1,141 @@
+﻿.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #fafbfc 0%, #f0f4f8 100%);
+}
+
+.hero-subtitle {
+  color: #95a5a6;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-shop {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 0.85rem 2rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.btn-shop:hover {
+  background: #34495e;
+  transform: none;
+}
+
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resin-art-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  background: linear-gradient(135deg, #ecf0f1 0%, #d5dbdb 100%);
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.resin-circle {
+  width: 85%;
+  height: 85%;
+  background: conic-gradient(from 180deg, #3498db 0deg, #2c3e50 180deg);
+  border-radius: 50%;
+  box-shadow: inset -10px -10px 30px rgba(0, 0, 0, 0.1), inset 10px 10px 30px rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.resin-circle::after {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 30%;
+  height: 30%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-top: 1px solid #ecf0f1;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-item h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.5px;
+}
+
+.feature-item p {
+  font-size: 0.85rem;
+  color: #95a5a6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
