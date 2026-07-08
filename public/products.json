@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "title": "Pooja Thali small",
+    "color": [
+      "red",
+      "green",
+      "yellow"
+    ],
+    "eta": 7,
+    "rating": 4.5,
+    "description": [
+      "Elegant gold leaf accents",
+      "Central Ganesha figurine",
+      "Includes three gold-toned bowls",
+      "Beautiful pink resin with pearls",
+      "Perfect for festive rituals"
+    ],
+    "images": [
+      "/products/1/resin-thali.jpg"
+    ],
+    "variant": [
+      {
+        "size": "7 Inches",
+        "price": "599"
+      },
+      {
+        "size": "10 Inches",
+        "price": "799"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Door Labh & Shubh",
+    "variant": [
+      {
+        "size": "7 Inches",
+        "price": "599"
+      },
+      {
+        "size": "10 Inches",
+        "price": "799"
+      }
+    ],
+    "color": [
+      "red",
+      "green",
+      "yellow"
+    ],
+    "eta": 3,
+    "rating": 4.8,
+    "description": [
+      "Elegant gold leaf accents",
+      "Central Ganesha figurine",
+      "Includes three gold-toned bowls",
+      "Beautiful pink resin with pearls",
+      "Perfect for festive rituals"
+    ],
+    "images": [
+      "/products/2/labh-shubh.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Wall Clock",
+    "color": [
+      "red",
+      "green",
+      "yellow"
+    ],
+    "eta": 3,
+    "rating": 4.8,
+    "description": [
+      "Elegant gold leaf accents",
+      "Central Ganesha figurine",
+      "Includes three gold-toned bowls",
+      "Beautiful pink resin with pearls",
+      "Perfect for festive rituals"
+    ],
+    "images": [
+      "/products/3/resin-wall-clock.jpg"
+    ],
+    "variant": [
+      {
+        "size": "7 Inches",
+        "price": "599"
+      },
+      {
+        "size": "10 Inches",
+        "price": "799"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Coaster Set",
+    "color": [
+      "red",
+      "green",
+      "yellow"
+    ],
+    "eta": 3,
+    "rating": 4.8,
+    "variant": [
+      {
+        "size": "7 Inches",
+        "price": "599"
+      },
+      {
+        "size": "10 Inches",
+        "price": "799"
+      }
+    ],
+    "description": [
+      "Elegant gold leaf accents",
+      "Central Ganesha figurine",
+      "Includes three gold-toned bowls",
+      "Beautiful pink resin with pearls",
+      "Perfect for festive rituals"
+    ],
+    "images": [
+      "/products/4/aqua-coaster-set.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bottle Decor",
+    "color": [
+      "red",
+      "green",
+      "yellow"
+    ],
+    "eta": 3,
+    "rating": 4.8,
+    "variant": [
+      {
+        "size": "7 Inches",
+        "price": "599"
+      },
+      {
+        "size": "10 Inches",
+        "price": "799"
+      }
+    ],
+    "description": [
+      "Elegant gold leaf accents",
+      "Central Ganesha figurine",
+      "Includes three gold-toned bowls",
+      "Beautiful pink resin with pearls",
+      "Perfect for festive rituals"
+    ],
+    "images": [
+      "/products/5/botanical-bottle-decor.jpg"
+    ]
+  }
+]
+ 

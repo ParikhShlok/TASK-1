@@ -1,8 +1,10 @@
 ﻿<nav class="menu">
-  <a href="#" class="menu-item">Home</a>
-  <a href="#" class="menu-item dropdown">Shop ▼</a>
-  <a href="#" class="menu-item dropdown">Collections ▼</a>
-  <a href="#" class="menu-item">Custom Order</a>
-  <a href="#" class="menu-item">About Us</a>
-  <a href="#" class="menu-item">Contact Us</a>
+  <a
+    *ngFor="let item of menuItems"
+    [href]="item.href"
+    class="menu-item"
+    [class.dropdown]="item.dropdown"
+  >
+    {{ item.label }}
+  </a>
 </nav>

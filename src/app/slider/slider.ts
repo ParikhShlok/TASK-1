@@ -4,6 +4,6 @@
   selector: 'app-slider',
   standalone: true,
   templateUrl: './slider.html',
-  styleUrl: './slider.css',
+  styleUrls: ['./slider.css'],
 })
 export class Slider {}

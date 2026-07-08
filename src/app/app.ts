@@ -6,7 +6,7 @@ import { Header } from './header/header';
   standalone: true,
   imports: [Header],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css'],
 })
 export class App {
   protected readonly title = signal('site');

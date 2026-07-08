@@ -1,0 +1,29 @@
+[
+  {
+    "image": "/name-plate.jpg",
+    "title": "Name Plates",
+    "id": 1
+  },
+  {
+    "image": "/keychains.jpg",
+    "title": "Keychains",
+    "id": 2
+  },
+  {
+    "image": "/wall.jpg",
+    "title": "Wall Decor",
+    "id": 3
+  },
+  {
+    "image": "/door-decor.jpg",
+    "title": "Door Decor",
+    "id": 4
+  },
+  {
+    "image": "/poojathali.jpg",
+    "title": "Pooja Thalis",
+    "id": 5
+  }
+]
+ 
+ 
